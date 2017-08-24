@@ -78,7 +78,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "bancogratis1";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001dfc9b7b804029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101c44ce3b0c296337aa6d96f1a34dc0400f08312a14974ecbf950717d0bfb581eb";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -114,8 +114,9 @@ const std::initializer_list<const char*> SEED_NODES = {
   //"your_seed_ip2.com:8080",
 	"172.31.25.116:48734",
 	"52.32.79.7:48734",
-	"95.159.191.237:48734", // IP verificar com o servidor
-
+	// "95.159.191.237:48734", // Retirar 
+	"172.31.19.33:48734", // IP verificar com o servidor
+	"54.68.33.37:48734" // adicionado
 };
 
 struct CheckpointData {
